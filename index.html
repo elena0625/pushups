@@ -60,7 +60,7 @@
 
     document.getElementById('myGoButton').onclick = function() {
       document.getElementById('myLabel').innerHTML = steps[currentStep];
-      document.getElementById('step'+currentStep).style.backgroundColor = "pink";
+      document.getElementById('step'+currentStep).style.backgroundColor = "green";
       if (currentStep + 1 < steps.length) currentStep++;
     };
     document.getElementById('myPushupsButton').onclick = function() { setProgram("pushups"); }
